@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAV_BSqA__DhqJnfvTG2R5mhcCZQqMiNL0&libraries=places"
+    ></script>
+    <script src="googleApiTest.js"></script>
+
+    <style>
+      /* div {
+        width: 100px;
+        height: 100px;
+        border: 20px solid red;
+        padding: 10px;
+        margin: 30px;
+        background: blue;
+      } */
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <span>Enter place name:</span>
+      <input
+        id="myPlace"
+        placeholder="place name"
+        type="text"
+        name="places"
+        value="John"
+      />
+      <button onclick="myFunction()">Find Place</button>
+      <div id="map"></div>
+    </div>
+  </body>
+</html>
