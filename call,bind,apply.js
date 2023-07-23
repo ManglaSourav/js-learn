@@ -1,5 +1,6 @@
 
-// These three method used for function borrowing means using a defined function as it own function
+// These three method used for function borrowing 
+// means using a defined function as it own function
 
 const CreateUser = (name, age, work = "nothing") => {
   const newUser = {};

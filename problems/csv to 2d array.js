@@ -8,5 +8,5 @@ const csv_to_array = (data, delimiter = ',', omitFirstRow = false) =>
 
 // console.log(csv_to_array('a,b\nc,d'));
 // console.log(csv_to_array('a;b\nc;d', ';'));
-console.log(csv_to_array('head1,head2\na,b\nc,d', ',', true));
+console.log(csv_to_array('head1,head2\na,b\nc,d', ',', False));
 

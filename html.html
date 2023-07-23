@@ -1,0 +1,18 @@
+<!-- <script>
+    alert("The initial type of function = " + typeof tfunc);
+    function tfunc(I) { }
+    alert("The type of function after call = " + typeof tfunc);
+</script> -->
+
+
+<form name="TestForm">
+    <input type="hidden" name="hiddenInput">
+    <input type="button" value="Change Input" onclick="changeValue (this. form);">
+    <input type="submit" value="Submit" />
+</form>
+<script>
+    function changeValue(f) {
+        console.log("here")
+        f.hiddenInput.value = prompt("New hh", "");
+    }
+</script>

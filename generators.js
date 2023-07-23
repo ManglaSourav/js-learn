@@ -3,7 +3,7 @@ function* doIt() {
   let x; 
   yield 'pass the value of X';
   
-  console.log(x);
+  console.log("Here x ",x);
   let y = yield 'pass the y';
   
   console.log(y);
