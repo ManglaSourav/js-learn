@@ -17,4 +17,4 @@ var str = ["Apple", "Banana", "Kiwi"];
 var res = str.slice(0,1,)
 console.log();
 console.log(res,str);
-console.log(str.slice(0, 1));
+console.log(str.slice(0, 2));
